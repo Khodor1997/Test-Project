@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-menu animate__animated animate__delay-1s animate__fadeInDown">
+                <div class="logo">
+                    <img src="assets/img/logotype.svg" alt="logotype">
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#">О нас</a></li>
+                            <li class="menu__item menu__item_drop">
+                                <a href="#">Наши улуги</a>
+                                <div class="drop-menu">
+                                    <ul>
+                                        <li>Сантехника</li>
+                                        <li>Услуги</li>
+                                        <li>Обратная связь</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu__item"><a href="#">Блог</a></li>
+                            
+                        </ul>
+                    </nav>
+                     <div class="phone">
+                        <span class="phone__text">Получите бесплатную консультацию</span>
+                        <p class="phone__number">+375 29 236 86 95</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="header-promo animate__animated animate__fadeInLeft">
+                    <!-- <div class="logo">
+                        <img src="assets/img/logotype.svg" alt="logotype">
+                    </div> -->
+                    
+                    <div class="preview">
+                        <div class="preview__block">
+                            <p class="preview__text">Вашу заявку увидят <span>20+</span><br> профессиональных сантехников</p>
+                        </div>
+                        <div class="preview__block">
+                            <p class="preview__text">Среднее время ответа менеджера <br>- <span>5</span> минут</p>
+                        </div>
+                    </div>
+                    <h1 class="header-title">Сантехнические работы<br>от профессионалов</h1>
+                    <h4 class="header-subtitle">Консультанты помогут вам подробно оформить заявку с учетом всех<br>критериев.</h4>
+                    <div class="social-icon">
+                        <img src="assets/img/yt-icon.svg" alt="youtube">
+                        <img src="assets/img/inst-icon.svg" alt="instagram">
+                    </div>
+                </div>
+                <div class="header-feedback animate__animated animate__fadeInRight">
+                    <div class="form">
+                        <h2 class="form__title">Вашу завку увидят<br><span>20+</span> профессионалов</h2>
+                        <span class="city">Минск</span>
+                        <p class="form__preview">Вы выберете подходящего Вам специалиста</p>
+                    </div>
+                    <form class="feedback-form" method="post" action="form.php">
+                        <div class="feedback-form__item">
+                          <label class="form__name" for="name">Имя</label>
+                          <input class="feedback-form__input" type="text" name="name" required placeholder="Имя">
+                        </div>
+                        <div class="feedback-form__item">
+                          <label class="form__name" for="number">Номер телефона</label>
+                          <input class="feedback-form__input" type="text" name="number" required placeholder="+375 (  )">
+                        </div>
+                        <div class="feedback-form__item">
+                            <label class="form__name" for="">Краткое описание задачи</label>
+                            <textarea class="feedback-form__area" name="comment" id="comment" cols="32" rows="8"> </textarea>
+                        </div>
+                        <button class="feedback-form__btn">Найти мастера</button>
+                    </form>
+                </div>
+        </header>
+        <section class="work">
+            <div class="container">
+                <div class="work-steps">
+                    <div class="work-step">
+                        <img class="work-step__img" src="assets/img/message.svg" alt="message">
+                        <p class="work-step__text">Вы оставляете <span>заявку</span> на сайте<br>или звоните нам по номеру<br> телефона <span>+375 29 236 86 95</span></p>
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/img/arrow-right.svg" alt="">
+                    </div>
+                    <div class="work-step">
+                        <img src="assets/img/manager.svg" alt="manager">
+                        <p class="work-step__text">Наш менеджер связывается<br>с вами и уточняет детали<br>проекта</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/img/arrow-right.svg" alt="">
+                    </div>
+                    <div class="work-step">
+                        <img src="assets/img/expert.svg" alt="expert">
+                        <p class="work-step__text">Мы подбираем специалиста и он<br>связывается с вами для заключения<br>договора и выполнения работ</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="services">
+            <div class="container">
+                <div class="services-type">
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-1.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж радиаторов</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-2.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж котлов</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-3.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж отопления<br>в квартире</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-4.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж отопления<br>в коттедж</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-5.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж водопровода</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-6.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж канализации</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-7.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж котельной</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                    <div class="services-type__item">
+                        <img class="services-type__img" src="assets/img/img-services-8.jpg" alt="services">
+                        <button class="services-type__button"><p class="services-type__text">Монтаж теплого<br>пола</p><span><img src="assets/img/services-arrow.svg" alt=""></span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
