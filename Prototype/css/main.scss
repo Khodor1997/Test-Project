@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    background: #dcdcdc;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header-section{
+    padding: 65px 0px;
+    height: 230px;
+    box-sizing: border-box;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+}
+
+.logotype{
+    float: left;
+}
+
+.phone{
+    float: right;
+}
+
+.logotype__img{
+    width: 275px;
+    height: 100px;
+}
+
+.phone__link{
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    color: #767676;
+    font-family: "Myriad Pro";
+    text-align: right;
+}
+
+.container-form{
+    padding: 75px 0px 95px 0px;
+}
+
+.section-form{
+    width: 100%;
+    background: #f8f8f8 url(../assets/img/form-bg.png);
+    background-position: center;
+    background-position: top;
+}
+
+.form{
+    margin-left: 98px;
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__descr{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9da3d7;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.form-block{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #9da3d7;
+    padding: 29px 16px 52px 16px;
+    &__title{
+        margin-bottom: 27px;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    &__inp{
+        padding: 0 17px;
+        margin: 0 auto;
+        margin-bottom: 23px;
+        width: 290px;
+        height: 49px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: #5d5d5d;
+        &::-webkit-input-placeholder {
+            font-size: 24px;
+            letter-spacing: 1px;
+            color: #767676;
+            font-family: "Myriad Pro";
+        } 
+        &::-moz-placeholder {
+            font-size: 24px;
+            letter-spacing: 1px;
+            color: #767676;
+            font-family: "Myriad Pro";
+        }
+    }
+    &__btn{
+        cursor: pointer;
+        margin: 0 auto;
+        width: 290px;
+        height: 49px;
+        border: none;
+        outline: none;
+        background: #ffc087;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        text-align: center;
+    }
+}
+
+.sucsess{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffc087;
+    top: 0;
+    left: 0;
+    display: none;
+    p{
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffff;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .btn-close{
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin-top: 40px;
+        width: 90%;
+        cursor: pointer;
+        outline: none;
+        border-radius: 10px;
+        background: #9da3d7;
+        height: 46px;
+        line-height: 46px;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+    }
+}
+
+.section-slider{
+    background: #fefefe;
+}
+
+.slider{
+    margin-top: 46px;
+}
+
+.slider__title{
+    margin-bottom: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #9da3d7;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.slider-block{
+    height: auto;
+    width: 100%;
+    border: 8px solid #fff;
+    -webkit-box-shadow: 0px 0px 9px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px -3px rgba(0,0,0,0.75);
+    &__item{
+        align-items: center;
+        font-family: "Myriad Pro";
+        font-size: 224px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        width: 692px;
+        height: 287px;
+        cursor: pointer;
+        &_green{
+            background: #b1e1a3;
+        }
+        &_orange{
+            background: #ffc087;
+        }
+        &_purple{
+            background: #9da3d7;
+        }
+    }
+}
+
+.section-text{
+    margin-top: 108px;
+}
+
+.text-block{
+    padding-bottom: 35px;
+    width: 100%;
+    &__title{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+    }
+    &__content{
+        margin-top: 36px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        text-align: left;
+    }
+}
+
+.product{
+    padding-top: 35px;
+    &__title{
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #9da3d7;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.product-block{
+    display: flex;
+    justify-content: space-between;
+    &__text{
+        margin-top: 40px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: righ
+    }
+}
+
+.product-block__item{
+    margin-top: 39px;
+    cursor: pointer;
+    width: 18%;
+    img{
+        width: 100%;
+        display: block;
+        height: 132px;
+    }
+    &:first-child{
+        width: 9%;
+    }
+    &:hover{
+        .product-block{;
+            &__text{
+                color: #0099de;
+            }
+        }
+    }
+}
+
+.calculator{
+    margin-top: 38px;
+    border: 3px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 36px 10px 50px 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.calculator-item{
+    width: 30%;
+    position: relative;
+}
+
+.calculator-criterion{
+    width: 54%;
+}
+
+.windows-height{
+    display: inline-block;
+    position: absolute;
+    top:45%;
+    // left: 10px;
+    span{
+        display: block;
+        color: red;
+        position: relative;
+        transform: rotate(-90deg);
+        font-size: 22px;
+        line-height: 40px;
+        color: #636363;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
+.windows-width{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    span{
+        font-size: 22px;
+        line-height: 40px;
+        color: #636363;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
+.windows-img{
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.windows-size{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.windows-size__width{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label{
+        font-size: 20px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        text-align: center;
+    }
+}
+
+.multiplie{
+    color: #0099de;
+    margin: 8px 26px 0px 26px;
+    font-size: 44px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.windows-size__height{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label{
+        font-size: 20px;
+        color: #000000;
+        font-family: "Myriad Pro";
+        text-align: center;
+    }
+}
+
+.windows-size__inp{
+    outline: none;
+    box-sizing: border-box;
+    border: 3px solid #a8a8a8;
+    width: 90px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 36px;
+    color: #5d5d5d;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+
+.calculator-criterion__title{
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #0099de;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.calculator-criterion__subtitle{
+    margin-top: 55px;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+
+.calculator-criterion__inp{
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Myriad Pro";
+}
+
+.calculator-criterion__selest{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 8px;
+    margin-right: 26px;
+}
+
+.calculator-criterion__radiobtn{
+    display: inline-block;
+}
+
+.calculator-criterion__list{
+    margin-top: 26px;
+    width: 354px;
+    height: 40px;
+    border: 3px solid #a8a8a8;
+    border-radius: 7px;
+    padding: 0px 24px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Myriad Pro";
+}
+
+.calculator-criterion__number{
+    margin-left: 60px;
+    margin-right: 22px;
+    width: 280px;
+    height: 46px;
+    display: flex;
+    border: 1px solid #c6c6c6;
+    background: #c6c6c6;
+    border-radius: 10px;
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66.6px;
+        background: #fff;
+        border-radius: 10px;
+    }
+}
+
+.calculator-criterion__btns{
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.calculator-criterion__input{
+    padding: 0px 10px;
+    background: #c6c6c6;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #5d5d5d;
+    &::placeholder{
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #424242;
+        font-family: "Myriad Pro";
+    }
+}
+
+.calculator-criterion__calculate{
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    background: #9da3d7;
+    width: 280px;
+    height: 46px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #ffd3c4;
+    }
+    &:active{
+        background: #ff4a38;
+    }
+}
+
+footer{
+    margin-top: 96px;
+    box-sizing: border-box;
+    padding-top: 46px;
+    width: 100%;
+    background: #777777;
+    height: 148px;
+}
+.footer-text{
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #fffefe;
+    font-family: "Myriad Pro";
+    text-align: left;
+}
+@media (max-width:1000px){
+    .container{
+        padding: 0px 20px;
+    }
+    .section-form{
+        padding: 70px 0px 70px 0px;
+    }
+    .product-block__text{
+        text-align: center;
+    }
+    .calculator-item{
+        width: 40%;
+    }
+    .calculator-criterion{
+        width: 56%;
+    }
+    .calculator-criterion__radiobtn{
+        width: 100%;
+    }
+    .calculator-criterion__subtitle{
+        margin-top:38px
+    }
+}
+
+@media (max-width:720px){
+    .phone__link {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .logotype__img {
+        width: 184px;
+        height: 67px;
+    }
+    .form{
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+
+    .product-block{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .product-block__item{
+        width: 34%;
+        &:first-child {
+            width: 15%;
+        }
+    }
+
+    .calculator-item {
+        width: 100%;
+    }
+
+    .windows-height {
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+    }
+
+    .calculator-criterion {
+        width: 100%;
+    }
+
+    .calculator-criterion__title, .calculator-criterion__subtitle{
+        text-align: center;
+    }
+    .calculator-criterion__radiobtn{
+        margin-left: 35%;
+    }
+    .calculator-criterion__list{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .calculator-criterion__btns{
+        justify-content: space-around;
+    }
+
+    .calculator-criterion__number{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .calculator-criterion__calculate, .calculator-criterion__number{
+        width: 49%;
+    }
+}
+
+@media (max-width:500px){
+    .phone__link{
+        font-size: 16px;
+    }
+    .logotype__img{
+        width: 150px;
+        height: 56px;
+    }
+    .header-section{
+        padding: 25px 0px;
+        height: 110px;
+    }
+    .section-form {
+        padding: 30px 0px 30px 0px;
+    }
+    .form{
+        width: 90%;
+    }
+    .form-block__title{
+        font-size: 20px;
+    }
+    .form-block__inp, .form-block__btn{
+        width: 80%;
+    }
+    .product-block__item {
+        width: 45%;
+        &:first-child {
+            width: 25%;
+        }
+    }
+    .calculator {
+        padding: 25px 10px 50px 10px;
+    }
+    .windows-width {
+        margin-bottom: 0px;
+    }
+    .windows-height {
+        left: 15%;
+    }
+    .calculator-criterion__title {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    .calculator-criterion__subtitle{
+        margin-top:14px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .calculator-criterion__radiobtn {
+        margin-left: 15px;
+    }
+    .calculator-criterion__list {
+        float: left;
+        margin-top: 6px;
+        width: 80%;
+    }
+    .calculator-criterion__btns{
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .calculator-criterion__number {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .calculator-criterion__calculate{
+        width: 100%;
+    }
+    footer {
+        margin-top: 46px;
+    }
+}
