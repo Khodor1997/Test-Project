@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 154" width="1920" height="154">
+	<defs>
+		<image width="3842" height="308" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQyIDMwOCIgd2lkdGg9IjM4NDIiIGhlaWdodD0iMzA4Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMzg0MiAwTDM4NDIgMzA4TDAgMzA4WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICNmZmZmZmYgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0zODQyIDMwOEwzODQyIDQwQzM4NDIgNDAgMzI0NCAxOTYgMjgwMiAxMThDMjM2MCA0MCAyMDUwIDQwIDIwMzggNDBDMjAyNiA0MCAxOTkyIDQyIDE5ODAgMzRDMTk2OC40NiAyNi4zMSAxOTQ1LjgzIC0xLjcgMTkyMSAtMC4zQzE4OTYuMTcgLTEuNyAxODczLjU0IDI2LjMxIDE4NjIgMzRDMTg1MCA0MiAxODE2IDQwIDE4MDQgNDBDMTc5MiA0MCAxNDgyIDQwIDEwNDAgMTE4QzU5OCAxOTYgMCA0MCAwIDQwTDAgMzA4TDM4NDIgMzA4WiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Блок 1">
+		<use id="ВОЛНА" href="#img1" transform="matrix(0.999,0,0,0.999,0,0)"/>
+	</g>
+</svg>

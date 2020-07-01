@@ -1,0 +1,935 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 81.25vw;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 1.718vw;
+  padding-bottom: 14.32vw;
+  background: url("../assets/img/wave.png") left bottom repeat-x, url("../assets/img/girl-min.png") right bottom 21% no-repeat, url("../assets/img/header-bg.png");
+  background-size: contain, 44.16vw, cover;
+}
+
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-info__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 26vw;
+}
+
+.header-info__logo img {
+  width: 14.7vw;
+  display: inline-block;
+}
+
+.header-info__logo p {
+  margin-left: 2.29vw;
+  font-size: 0.73vw;
+  font-family: "Museo Sans Cyrl 500";
+}
+
+.header-info__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 19vw;
+}
+
+.header-info__adress img {
+  width: 4.16vw;
+  display: inline-block;
+}
+
+.header-info__tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 16.6vw;
+}
+
+.header-info__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12vw;
+}
+
+.header-info__btn button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 3.23vw;
+  font-size: 0.78125vw;
+  font-family: "Museo Sans Cyrl 500";
+  letter-spacing: 0.052vw;
+  border-radius: 1.5626vw;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #fefcfb;
+  -webkit-box-shadow: 0px -4px 0px 0px #ebeaea inset;
+          box-shadow: 0px -4px 0px 0px #ebeaea inset;
+}
+
+.header-info__btn button img {
+  margin-left: 0.1vw;
+  width: 1.04vw;
+}
+
+.header-info__btn button:hover {
+  background-color: #eceaea;
+}
+
+.phone-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone-block .img-bg {
+  border-radius: 50%;
+  padding: 0.575vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+}
+
+.phone-block .img-bg img {
+  width: 0.933vw;
+}
+
+.phone-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone-time .img-bg {
+  border-radius: 50%;
+  padding: 0.575vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+}
+
+.phone-time .img-bg img {
+  width: 0.933vw;
+}
+
+.phone__number {
+  position: relative;
+  font-size: 1.25vw;
+  font-family: "Museo Sans Cyrl 500";
+  margin: 0;
+  margin-left: 1vw;
+}
+
+.phone__number_spn {
+  font-size: 0.625vw;
+}
+
+.phone__number_spn:before {
+  content: '';
+  display: inline-block;
+  margin-right: 0.5vw;
+  border-radius: 50%;
+  width: 0.3125vw;
+  height: 0.3125vw;
+  background: #27b24b;
+}
+
+.phone__time {
+  font-family: "Museo Sans Cyrl 500";
+  margin-left: 1vw;
+  font-size: 0.833vw;
+}
+
+.adress__text {
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 0.833vw;
+  display: inline-block;
+  margin-left: 1.25vw;
+  position: relative;
+}
+
+.adress__link {
+  cursor: pointer;
+  border-bottom: 1px dashed #f15b6f;
+  color: #fd8394;
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 0.633vw;
+  text-transform: uppercase;
+  margin-top: 1vw;
+  display: inline-block;
+  position: relative;
+}
+
+.adress__link:hover {
+  color: #f75167;
+  border-bottom: 1px solid #f75167;
+}
+
+.adress__map {
+  z-index: 2000;
+  width: 15vw;
+  height: 11vw;
+  background: 0;
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  right: 0;
+  top: 15%;
+  display: none;
+}
+
+.adress__map img {
+  width: 100%;
+}
+
+.menu {
+  background: #fff;
+  height: 3.125vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.875vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 0.73vw;
+}
+
+.menu__item {
+  position: relative;
+  z-index: 22;
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 0.88125vw;
+  list-style: none;
+  border-bottom: 2px solid transparent;
+}
+
+.menu__item:hover {
+  border-bottom: 2px solid #f15b6f;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.header-content__title {
+  position: relative;
+  z-index: 5;
+  font-size: 2.5vw;
+  line-height: 2.864vw;
+  font-weight: 300;
+  font-family: "Museo Sans Cyrl 300";
+}
+
+.header-content__title b {
+  font-family: "Museo Sans Cyrl 500";
+}
+
+.content-list {
+  display: inline-block;
+  padding-left: 0vw;
+}
+
+.content-list__item {
+  list-style: none;
+  color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-list__item::before {
+  content: " ";
+  width: 0.416vw;
+  height: 0.416vw;
+  background: #ef9499;
+  border-radius: 50%;
+  border: 0.2083vw solid #fff;
+  -webkit-filter: drop-shadow(0px 1px 6.5px rgba(239, 148, 153, 0.38));
+          filter: drop-shadow(0px 1px 6.5px rgba(239, 148, 153, 0.38));
+  margin-right: 0.729vw;
+}
+
+.content-list__item span {
+  font-size: 0.9375vw;
+  line-height: 1.875vw;
+  font-family: "Museo Sans Cyrl 500";
+  color: #000;
+}
+
+.content-btn {
+  margin-top: 3.02vw;
+  padding: 0 2.29vw;
+  width: 18.6vw;
+  height: 4.43vw;
+  border-radius: 2.24vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-filter: drop-shadow(0px 7px 13.5px rgba(241, 131, 131, 0.57));
+          filter: drop-shadow(0px 7px 13.5px rgba(241, 131, 131, 0.57));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ee858c), color-stop(98%, #fabcbc));
+  background-image: linear-gradient(0deg, #ee858c 0%, #fabcbc 98%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px -4px 0px 0px #d7747a inset;
+          box-shadow: 0px -4px 0px 0px #d7747a inset;
+}
+
+.content-btn:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f1737c), color-stop(98%, #f1737c));
+  background-image: linear-gradient(0deg, #f1737c 0%, #f1737c 98%);
+}
+
+.content-btn img {
+  top: 0.5vw;
+  right: -6.5vw;
+  position: absolute;
+  width: 13vw;
+}
+
+.content-btn p {
+  letter-spacing: 0.104vw;
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 0.729vw;
+  -webkit-filter: drop-shadow(0px 1px 2.5px rgba(210, 110, 116, 0.49));
+          filter: drop-shadow(0px 1px 2.5px rgba(210, 110, 116, 0.49));
+  color: #fff;
+}
+
+.hint {
+  margin-top: 2vw;
+  margin-left: 4.95vw;
+  width: 30vw;
+  position: absolute;
+  display: inline-block;
+}
+
+.hint img {
+  width: 12.395vw;
+}
+
+.hint__btn {
+  cursor: pointer;
+  top: 70%;
+  right: 65%;
+  position: absolute;
+  display: inline-block;
+  width: 3.135vw;
+  height: 3.135vw;
+  z-index: 26;
+}
+
+.hint__btn::before, .hint__btn::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #f6a7a9;
+  left: -4px;
+  right: -4px;
+  top: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  -webkit-animation: pulse 1.8s linear infinite;
+          animation: pulse 1.8s linear infinite;
+  z-index: 5;
+}
+
+.hint__btn img {
+  z-index: 10;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 3.135vw;
+}
+
+.hint__block {
+  opacity: 0;
+  padding: 0.5vw 1.36vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 9.11vw;
+  height: 10.94vw;
+  margin: 20px 0;
+  background-color: #fffefd;
+  border-radius: 50% / 10%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: -12%;
+  left: 30%;
+  z-index: 3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hint__block p {
+  font-size: 0.729vw;
+  letter-spacing: 0.104vw;
+  color: #282828;
+  font-family: "Museo Sans Cyrl 500";
+  text-align: center;
+}
+
+.hint__block:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  background: inherit;
+}
+
+.hint__btn:hover ~ .hint__block {
+  opacity: 1;
+}
+
+.hint__btn::after {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.arrow {
+  width: 1.66vw;
+  position: absolute;
+  left: 39.8vw;
+  bottom: -10.23vw;
+}
+
+.arrow::before, .arrow::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #fff;
+  left: -22px;
+  right: -22px;
+  top: -22px;
+  bottom: 22px;
+  border-radius: 50%;
+  -webkit-animation: pulse2 1.8s linear infinite;
+          animation: pulse2 1.8s linear infinite;
+}
+
+.arrow img {
+  width: 1.66vw;
+}
+
+.arrow::after {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.clouds2 {
+  position: absolute;
+  z-index: 2;
+  left: 2%;
+  top: 30%;
+}
+
+.clouds2 img {
+  width: 15.625vw;
+}
+
+.clouds1 {
+  position: absolute;
+  z-index: 2;
+  right: -5%;
+  top: 10%;
+}
+
+.clouds1 img {
+  width: 15.625vw;
+}
+
+.modal-bg {
+  display: none;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  padding: 3.958vw 5.2vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 38.54vw;
+  height: 34.79vw;
+  background: url(../assets/img/modal-bg.png);
+  background-size: cover;
+  border-radius: 2vw;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 31;
+  top: 8%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modal__title {
+  margin-top: 0;
+  font-size: 1.875vw;
+  font-weight: 500;
+  font-family: "Museo Sans Cyrl 500";
+}
+
+.modal__subtitle {
+  font-size: 0.833vw;
+  font-family: "Museo Sans Cyrl 500";
+  text-align: center;
+}
+
+.form__img {
+  width: 13.9vw;
+  z-index: 2;
+  position: absolute;
+  top: 28%;
+  left: -15%;
+}
+
+.form-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-block__inp {
+  position: relative;
+  z-index: 3;
+  padding: 0 2.34vw;
+  margin: 0 auto;
+  margin-bottom: 0.833vw;
+  width: 26.04vw;
+  height: 4.16vw;
+  border-radius: 2.083vw;
+  border: 1px solid #fbeff0;
+  outline: none;
+  background: #fff;
+  font-size: 0.975vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-block__btn {
+  margin: 0 auto;
+  padding: 0 2.29vw;
+  width: 26.04vw;
+  height: 4.16vw;
+  border-radius: 2.24vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-filter: drop-shadow(0px 7px 13.5px rgba(241, 131, 131, 0.57));
+          filter: drop-shadow(0px 7px 13.5px rgba(241, 131, 131, 0.57));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ee858c), color-stop(98%, #fabcbc));
+  background-image: linear-gradient(0deg, #ee858c 0%, #fabcbc 98%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 0.9375vw;
+  letter-spacing: 0.104vw;
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl";
+  -webkit-box-shadow: 0px -4px 0px 0px #f08d93 inset;
+          box-shadow: 0px -4px 0px 0px #f08d93 inset;
+}
+
+.form-block__btn:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f1737c), color-stop(98%, #f1737c));
+  background-image: linear-gradient(0deg, #f1737c 0%, #f1737c 98%);
+}
+
+.form-block__btn img {
+  top: 0.1vw;
+  right: -4vw;
+  position: absolute;
+  width: 13vw;
+}
+
+.modal-success {
+  margin: 0 auto;
+  z-index: 31;
+  top: 8%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  width: 27.1875vw;
+  height: 17.55vw;
+  background: #fef8f7;
+  border-radius: 2vw;
+  position: absolute;
+  overflow: hidden;
+}
+
+.modal-success__img {
+  width: 12.5vw;
+  position: absolute;
+  bottom: -4vw;
+  right: -8vw;
+}
+
+.modal-success__good {
+  width: 12.68vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-success__text {
+  margin-top: -2vw;
+  text-align: center;
+  font-size: 1.56vw;
+  color: #282828;
+  font-family: "Museo Sans Cyrl 500";
+}
+
+.close-btn, .close-success-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  width: 1.5vw;
+  cursor: pointer;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.close-btn:hover, .close-success-btn:hover {
+  background: #ee858c;
+  color: #fff;
+}
+
+@media (max-width: 560px) {
+  header {
+    padding-bottom: 50px;
+    background: url("../assets/img/wave.png") left bottom repeat-x, url("../assets/img/girl-min.png") right bottom no-repeat, url("../assets/img/header-bg.png");
+    background-size: contain, 64.16vw, cover;
+  }
+  .header-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header-info__logo {
+    width: 40%;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .header-info__logo img {
+    width: 120px;
+  }
+  .header-info__logo p {
+    display: none;
+  }
+  .header-info__adress {
+    width: 50%;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-info__adress img {
+    width: 40px;
+  }
+  .adress__text {
+    font-size: 8px;
+  }
+  .adress__link {
+    font-size: 6px;
+  }
+  .phone-block .img-bg {
+    padding: 4px;
+  }
+  .phone-time .img-bg {
+    padding: 4px;
+  }
+  .phone-block .img-bg img, .phone-time .img-bg img {
+    width: 10px;
+  }
+  .phone__number {
+    font-size: 10px;
+  }
+  .phone__number_spn {
+    font-size: 6px;
+  }
+  .phone__time {
+    font-size: 7px;
+  }
+  .block-posit {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .header-info__tel {
+    width: 50%;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .header-info__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 40%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .header-info__btn button {
+    border-radius: 10px;
+    font-size: 8px;
+    width: 110px;
+    height: 25px;
+    -webkit-box-shadow: 0px -2px 0px 0px #ebeaea inset;
+    box-shadow: 0px -2px 0px 0px #ebeaea inset;
+  }
+  .header-info__btn button img {
+    margin-right: 3px;
+    margin-top: -1px;
+    width: 2.04vw;
+  }
+  .adress__map {
+    z-index: 2000;
+    width: 15vw;
+    height: 11vw;
+    background: 0;
+    position: absolute;
+    left: 17%;
+    bottom: 0;
+    right: 0;
+    top: 32%;
+    display: none;
+  }
+  .adress__map img {
+    width: 100%;
+  }
+  .menu {
+    margin-top: 15px;
+    background: inherit;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu__item {
+    border-radius: 5px;
+    margin: 1px;
+    border: 1px solid #dacece;
+    width: 18%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15px;
+    position: relative;
+  }
+  .content-list {
+    margin-top: 0px;
+  }
+  .header-content__title {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .content-list__item span {
+    font-size: 7px;
+    line-height: 7px;
+  }
+  .content-btn {
+    margin-top: 0;
+    width: 90px;
+    height: 20px;
+    -webkit-box-shadow: 0px -2px 0px 0px #d7747a inset;
+    box-shadow: 0px -2px 0px 0px #d7747a inset;
+  }
+  .content-btn p {
+    font-size: 4px;
+  }
+  .clouds, .hint {
+    display: none;
+  }
+  .arrow::after, .arrow::before {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
